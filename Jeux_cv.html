@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Jeux_cv.css" />
+    <script src="Jeux_cv.js"></script>
+    <script src="jquery.js"></script>
+    <title>TP Front-End</title>
+
+  </head>
+  
+  <!--Fenêtre de démarrage du jeu-->
+  <body onload="presentation() ">
+
+     <!--Chrono-->
+    <div class="chronometre">
+      <div class="time">
+        <span class="span">0 s</span>
+        <span class="span"></span>
+      </div>
+    </div>
+    <div>
+      <button id="stop" onclick="stop()">Quitter</button>
+      
+    <!--Boutton Start-->
+    <p>
+      <button
+        onclick=" startGame()"
+        id="Demarrer"
+      >
+        START
+      </button>
+    </p>
+
+    <!--Les véhicules-->
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="div4"></div>
+    <div id="velo"></div>
+    <div class="ligneArriver"></div>
+
+    <!--Le personnage-->
+    <div id="personnage" style="top: 500px;"></div>
+    <div id="personnageKo"></div>
+  </body>
+</html>

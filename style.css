@@ -1,0 +1,72 @@
+* {
+  font-family: "Dosis", sans-serif;
+  background-color: rgb(170, 255, 170);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profil {
+  margin-bottom: 10%;
+}
+
+.profil-picture {
+  margin: 10px;
+  float: left;
+  border: 2px solid rgb(250, 141, 141);
+}
+
+.cv {
+  display: flex;
+  justify-content: center;
+}
+
+.exp-content {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 40%;
+  padding: 5px;
+  margin: 10px;
+}
+
+.exp {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px;
+}
+
+.training-content {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 40%;
+  padding: 5px;
+  margin: 10px;
+}
+
+.training {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px;
+}
+
+h6 {
+  font-size: large;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.meta-nav {
+  margin: 3px;
+}
+
+.fab {
+  font-size: xx-large;
+  margin: 3px 600px;
+}
